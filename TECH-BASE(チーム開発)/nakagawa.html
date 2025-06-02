@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+    content="width=device-width,
+     initial-scale=1.0">
+    <title>ともみん：自己紹介サイト</title>
+    <link rel="stylesheet" href="nakagawa.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+</head>
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"><span>TECH-BASE</span></a>
+        <nav class="navbar">
+            <a href="onishi.html">大西準誠</a>
+            <a href="sato.html">佐藤希美</a>
+            <a href="shibata.html">柴田一樹</a>
+            <a href="nakagawa.html">中川皓聖</a>
+            <a href="manabe.html">間部絵里奈</a>
+            <a href="muto.html">武藤悠那</a>
+
+        </nav>
+        <a href="http://127.0.0.1:5500/index.html" class="contact">お問い合わせ</a>
+    </header>
+
+<!--ここから上は触らないでください--> 
+<!--編集作業はここから下--> 
+
+<html>
+<head>
+  <meta name="viewport" content="width=320, height=480, initial-scale=1.0, minimum-scale=1.0, maximum-scale=2.0, user-scalable=yes"><!-- for smartphone. ここは一旦、いじらなくてOKです。 -->
+	<meta charset="utf-8"><!-- 文字コード指定。ここはこのままで。 -->
+	<title>○○のプロフィール</title>
+
+</head>
+
+<body>
+
+
+<!-- 見出し 第１レベル -->
+<!--（氏名）の公開を避ける場合はイニシャルやニックネームでOK-->
+<h1 id="midashi_1"> （氏名）のプロフィール </h1>
+
+
+<!--自分を象徴するような画像を入れてみよう-->
+<!--画像も同じフォルダに保存すること-->
+<img src="gazou.jpg" alt="自分を象徴する写真など" title="プロフィール画像" width="320px" ><br>
+（画像についてひとこと：あれば書いてみましょう）
+
+<hr>
+
+<!-- 見出し 第２レベル ・以下、h2レベルで項目を色々書いていきましょう -->
+<!-- 自己紹介で言いたい項目を見出しにいれて、文章をつくりましょう。項目名は編集OK。項目を足してもOK。 -->
+<h2>所属など</h2>
+　ゼミで各地の郷土資料館とか巡ります。<br>
+　金曜はコンビニ●●でバイト（ガッツリと(笑)）<br>
+
+
+<h2>趣味や属性</h2>
+　旅行で写真を撮るのが好きです。<br>
+　人見知りかもしれません。克服したい！　みなさん、声かけてください<br>
+
+
+<!-- HTMLで出来る色々な表現を試す -->
+<!-- ↑文字に意味を持たせることもできます。strong は太字。ググったりして色々と調べてみましょう -->
+<!-- 例として今回は「リスト表示」を作ってみましょう。項目数が３で足りないなら足してもOKです -->
+<!-- 番号をふるなら ol タグ、番号がいらないなら ul タグ で囲って、項目は li タグで括ります。 -->
+<!-- ol ・ ul 片方でOK -->
+<h2>●●トップ３</h2>
+<strong> 私の●●のトップ３です！</strong><br>
+<!-- ↑文字に意味を持たせることもできます。strong は強調。太字になります。 -->
+
+<ol>
+	<li> ああ</li>
+	<li> いい</li>
+	<li> うう</li>
+</ol>
+
+<ul>
+	<li> アア</li>
+	<li> イイ</li>
+	<li> エエ</li>
+</ul>
+
+<hr>
+
+<!-- 以下は、見出しの名前は固定で、内容を編集してみましょう -->
+<h2>その他</h2>
+<!-- 見出し 第３レベル -->
+<h3>使用PC</h3><!-- 編集して、自分の使うPCだけ残しましょう -->
+ Windows
+ Mac
+ Linux
+ その他
+
+<h3>PC利用経験や、普段の使い方</h3>
+ほぼYouTubeを見てます。
+最近は●●などのアーチストをよく見てます。
+
+<h3>自分の強みや弱みなど</h3>
+強み：悩む前に走り出すタイプです<br>
+行動は早いです<br>
+弱み：ちょっと人見知りです<br>
+
+
+<h3>TECH-BASE参加にあたり、意気込み</h3>
+初心者ですが頑張ります！最後までやり抜きます！<br>
+
+
+<hr>
+<a href="#midashi_1"> このページのTOPへ </a> ／ <a href="https://www.google.co.jp/" target="_blank"> ググる </a>
+
+<hr>
+
+<!-- 以下は投稿フォーム欄ですが、今は＆このままでは機能しておらずエラーが発生します。 -->
+<!-- したがって今はコピペするだけでOKです。スタートアップ以降のPHPミッションを進める際に、参考にしてください。 -->
+<form method="POST" action="">
+	お名前：<input type="text" name="name"><br>
+	コメント：<input type="text" name="comment"><br>
+	<input type="submit" name="submit" value="送信">
+</form>
+<footer class="footer">
+    <div class="social">
+        <a href="https://ja-jp.facebook.com/"><i class="bx bxl-facebook-circle"></i></a>
+        <a href="https://jp.linkedin.com/"><i class="bx bxl-linkedin-square"></i></a>
+        <a href="https://www.instagram.com/"><i class="bx bxl-instagram-alt"></i></a>
+        <a href="https://x.com/?locale=ja"><i class="bx bxl-twitter"></i></a>
+    </div>
+        <p class="copyright">© 2025 TECH-BASE</p>
+    </footer>
+</body>
+</html>
